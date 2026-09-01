@@ -25,32 +25,38 @@
       padding: 1.5rem;
     }
     main { max-width: 480px; }
-    h1 {
-      color: var(--maroon);
-      font-size: 2.25rem;
-      margin: 0 0 0.75rem;
+    .banner {
+      display: block;
+      width: 100%;
+      max-width: 335px;
+      height: auto;
+      margin: 0 auto 1.5rem;
     }
-    p.tagline {
-      font-size: 1.1rem;
-      margin: 0 0 1.5rem;
+    .notice {
+      background: #f2ead9;
+      border: 1px solid #e4dccb;
+      border-radius: 6px;
+      padding: 2rem;
     }
-    p.notice {
-      display: inline-block;
-      background: var(--gold);
-      color: var(--ink);
-      font-weight: bold;
-      font-size: 1.15rem;
-      padding: 0.75rem 1.25rem;
-      border-radius: 4px;
+    .notice p {
+      line-height: 1.6;
       margin: 0;
+    }
+    .notice a {
+      color: var(--maroon);
+      font-weight: bold;
+    }
+    .nowrap {
+      white-space: nowrap;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>Klez Fest Midwest</h1>
-    <p class="tagline">October 22&ndash;25, 2026</p>
-    <p class="notice">Check back soon!</p>
+    <img src="images/banner.jpg" alt="Klez Fest Midwest" class="banner">
+    <div class="notice">
+      <p>Klez Fest Midwest will take place in Madison, Wisconsin, <span class="nowrap">October 22&ndash;25, 2026!</span><br><br>We&rsquo;ll post updates and the schedule here. Please check back and follow us at <a href="https://www.facebook.com/KlezFestMidwest" target="_blank" rel="noopener noreferrer">facebook.com/KlezFestMidwest</a>.<br><br>We can&rsquo;t wait to see you in October!</p>
+    </div>
   </main>
 </body>
 </html>
