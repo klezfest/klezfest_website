@@ -194,10 +194,20 @@ main {
   margin: 0;
 }
 
+.event-address {
+  font-style: italic;
+  margin: 0;
+}
+
 .event-note {
   color: var(--gold);
   font-weight: bold;
   margin: 0.35rem 0 0;
+}
+
+.event-note a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .about {
