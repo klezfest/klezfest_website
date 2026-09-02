@@ -247,8 +247,88 @@ main {
   height: 22px;
 }
 
+.lineup {
+  margin: 0 0 3rem;
+}
+
+.lineup-row {
+  display: grid;
+  grid-template-columns: minmax(200px, 320px) 1px 1fr;
+  align-items: stretch;
+}
+
+.lineup-row + .lineup-row {
+  border-top: 1px solid #e4dccb;
+}
+
+.lineup-info {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.lineup-divider {
+  background: var(--maroon);
+  width: 1px;
+}
+
+.lineup-panel {
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 0.75rem;
+  overflow-x: auto;
+}
+
+.band-card {
+  display: inline-flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--paper);
+  border: 1px solid var(--maroon);
+  border-radius: 4px;
+  padding: 0.6rem;
+  text-decoration: none;
+}
+
+.band-card img {
+  height: 110px;
+  width: auto;
+  border-radius: 3px;
+  display: block;
+}
+
+.band-card .band-name {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: var(--maroon);
+  text-align: center;
+  margin: 0;
+}
+
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2.1rem;
+  }
+
+  .lineup-row {
+    grid-template-columns: 1fr;
+  }
+
+  .lineup-divider {
+    display: none;
+  }
+
+  .lineup-info {
+    padding: 1.5rem 0 0.75rem;
+  }
+
+  .lineup-panel {
+    padding: 0 0 1.5rem;
+  }
+
+  .band-card img {
+    height: 85px;
   }
 }

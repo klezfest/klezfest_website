@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Klez Fest Midwest</title>
+  <title>Klez Fest Midwest &mdash; Events</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header class="site-header">
     <div class="header-inner">
-      <img src="images/banner.jpg" alt="Klez Fest Midwest" class="banner">
+      <a href="index.html"><img src="images/banner.jpg" alt="Klez Fest Midwest" class="banner"></a>
       <nav class="site-nav">
-        <a href="#about" class="nav-btn">About</a>
-        <a href="#schedule" class="nav-btn">Schedule</a>
+        <a href="index.html#about" class="nav-btn">About</a>
+        <a href="index.html#schedule" class="nav-btn">Schedule</a>
         <a href="events.html" class="nav-btn">Events</a>
       </nav>
     </div>
@@ -21,85 +21,129 @@
 
   <main>
     <section class="hero">
-      <h1>Klez Fest Midwest</h1>
-      <p class="dates">October 22–25, 2026</p>
+      <h1>2026 Events</h1>
+      <p class="dates">October 22&ndash;25, 2026</p>
     </section>
 
-    <section class="featured">
-      <img src="images/klezmatics.jpg" alt="The Klezmatics" class="featured-photo">
-      <div class="featured-info">
-        <h2>Featuring:<br>The Klezmatics</h2>
-        <p class="performance-time">Saturday, October 24 &middot; 2:00 PM</p>
-        <p class="venue">
-          Mead Witter Foundation Hall<br>
-          Hamel Music Center, Mead Witter School of Music<br>
-          University of Wisconsin&ndash;Madison<br>
-          740 University Avenue, Madison, WI
-        </p>
-        <p class="free-notice">This concert&mdash;and ALL Klez Fest Midwest events&mdash;are FREE and open to the public.</p>
-      </div>
-    </section>
+    <section class="lineup" aria-label="Concerts and performing bands">
 
-    <section class="about" id="about">
-      <h2>About</h2>
-      <p>Klez Fest Midwest (KFMW), founded in 2024, is celebrating its third season this year. Directed by Meg Lamm, Dan Grabois, and Michael Bell, the festival brings international klezmer bands and local talent to Madison to explore this vibrant art form. KFMW welcomes traditional klezmer and klezmer blended with any other music styles, including blues, folk, Gypsy fire punk, Eastern European, and Latin music. KFMW events this year are free thanks to the support of our sponsors.</p>
-    </section>
-
-    <section class="schedule" id="schedule">
-      <h2>Schedule</h2>
-
-      <div class="schedule-day">
-        <h3>Thursday, October 22</h3>
-        <div class="event">
-          <p class="event-time">7:00 PM</p>
-          <p class="event-title">Local band Tsuzamen and Chicago&rsquo;s Fugu Dugu</p>
+      <div class="lineup-row">
+        <div class="lineup-info">
+          <p class="event-time">Thursday, Oct 22 &middot; 7:00 PM</p>
+          <p class="event-title">Tsuzamen &amp; Fugu Dugu</p>
           <p class="event-desc">Indie klezmer (Tsuzamen) and Balkan brass/klezmer soul/gypsy fire punk (Fugu Dugu)</p>
           <p class="event-venue">North Street Cabaret</p>
         </div>
-      </div>
-
-      <div class="schedule-day">
-        <h3>Friday, October 23</h3>
-        <div class="event">
-          <p class="event-time">7:30 PM</p>
-          <p class="event-title">SoundWaves: Music and Science Together</p>
-          <p class="event-desc">A Wisconsin Science Festival event. UW&ndash;Madison faculty explore the theme of &ldquo;Origins&rdquo; from a variety of perspectives. The Klezmatics speak about the origins of klezmer and perform songs from their 40-year repertoire.</p>
-          <p class="event-venue">Collins Recital Hall, Hamel Music Center</p>
-          <p class="event-note">Free but registration required at: WEBSITE</p>
+        <div class="lineup-divider" aria-hidden="true"></div>
+        <div class="lineup-panel">
+          <div class="band-card">
+            <img src="images/Tsuzamen.jpg" alt="Tsuzamen">
+            <p class="band-name">Tsuzamen</p>
+          </div>
+          <div class="band-card">
+            <img src="images/Fugu%20Dugu.jpg" alt="Fugu Dugu">
+            <p class="band-name">Fugu Dugu</p>
+          </div>
         </div>
       </div>
 
-      <div class="schedule-day">
-        <h3>Saturday, October 24</h3>
-        <div class="event">
-          <p class="event-time">11:00 AM</p>
+      <div class="lineup-row">
+        <div class="lineup-info">
+          <p class="event-time">Friday, Oct 23 &middot; 7:30 PM</p>
+          <p class="event-title">SoundWaves: Music and Science Together</p>
+          <p class="event-desc">A Wisconsin Science Festival event. The Klezmatics speak about the origins of klezmer and perform songs from their 40-year repertoire.</p>
+          <p class="event-venue">Collins Recital Hall, Hamel Music Center</p>
+          <p class="event-note">Free but registration required</p>
+        </div>
+        <div class="lineup-divider" aria-hidden="true"></div>
+        <div class="lineup-panel">
+          <div class="band-card">
+            <img src="images/klezmatics.jpg" alt="The Klezmatics">
+            <p class="band-name">The Klezmatics</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lineup-row">
+        <div class="lineup-info">
+          <p class="event-time">Saturday, Oct 24 &middot; 11:00 AM</p>
           <p class="event-title">Children&rsquo;s Concert with Elm Duo</p>
           <p class="event-desc">Klezmer for the whole family</p>
           <p class="event-venue">Lee/Kaufman Rehearsal Hall</p>
         </div>
-        <div class="event">
-          <p class="event-time">2:00 PM</p>
+        <div class="lineup-divider" aria-hidden="true"></div>
+        <div class="lineup-panel">
+          <div class="band-card">
+            <img src="images/Elm%20Duo.jpg" alt="Elm Duo">
+            <p class="band-name">Elm Duo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lineup-row">
+        <div class="lineup-info">
+          <p class="event-time">Saturday, Oct 24 &middot; 2:00 PM</p>
           <p class="event-title">Showcase Concert with The Klezmatics</p>
           <p class="event-venue">Mead Witter Foundation Hall</p>
         </div>
-        <div class="event">
-          <p class="event-time">7:00 PM</p>
+        <div class="lineup-divider" aria-hidden="true"></div>
+        <div class="lineup-panel">
+          <div class="band-card">
+            <img src="images/klezmatics.jpg" alt="The Klezmatics">
+            <p class="band-name">The Klezmatics</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lineup-row">
+        <div class="lineup-info">
+          <p class="event-time">Saturday, Oct 24 &middot; 7:00 PM</p>
           <p class="event-title">Dan&rsquo;s World Music Fest</p>
           <p class="event-desc">Dance party fundraiser for WORT celebrating the life of beloved world music DJ Dan Talmo, with Sz&aacute;szka (Hungarian/Transylvanian dance music), LuLu Quintet (French/Romany jazz), and Yid Vicious (Klezmer)</p>
           <p class="event-venue">East Side Club</p>
           <p class="event-note">$20 suggested donation</p>
         </div>
+        <div class="lineup-divider" aria-hidden="true"></div>
+        <div class="lineup-panel">
+          <div class="band-card">
+            <img src="images/Szaszka.jpg" alt="Sz&aacute;szka">
+            <p class="band-name">Sz&aacute;szka</p>
+          </div>
+          <div class="band-card">
+            <img src="images/LuLu%20Quintet.jpg" alt="LuLu Quintet">
+            <p class="band-name">LuLu Quintet</p>
+          </div>
+          <div class="band-card">
+            <img src="images/Yid%20Vicious.jpg" alt="Yid Vicious">
+            <p class="band-name">Yid Vicious</p>
+          </div>
+        </div>
       </div>
 
-      <div class="schedule-day">
-        <h3>Sunday, October 25</h3>
-        <div class="event">
-          <p class="event-time">4:00 PM</p>
+      <div class="lineup-row">
+        <div class="lineup-info">
+          <p class="event-time">Sunday, Oct 25 &middot; 4:00 PM</p>
           <p class="event-title">Nigunim Trio</p>
           <p class="event-desc">The Klezmatics&rsquo; Lorin Sklamberg (vocals/accordion) and Frank London (trumpet/keyboard) with pianist Rob Schwimmer in a program of Yiddish Hasidic spiritual songs</p>
           <p class="event-venue">North Street Cabaret</p>
         </div>
+        <div class="lineup-divider" aria-hidden="true"></div>
+        <div class="lineup-panel">
+          <div class="band-card">
+            <img src="images/Lorin%20Sklamberg.jpg" alt="Lorin Sklamberg">
+            <p class="band-name">Lorin Sklamberg</p>
+          </div>
+          <div class="band-card">
+            <img src="images/Frank%20London.jpg" alt="Frank London">
+            <p class="band-name">Frank London</p>
+          </div>
+          <div class="band-card">
+            <img src="images/Rob%20Schwimmer.jpg" alt="Rob Schwimmer">
+            <p class="band-name">Rob Schwimmer</p>
+          </div>
+        </div>
       </div>
+
     </section>
   </main>
 
