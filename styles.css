@@ -239,7 +239,8 @@ main {
   margin: 0.35rem 0 0;
 }
 
-.event-note--free {
+.event-note--free,
+.event-note--cost {
   color: var(--red);
 }
 
