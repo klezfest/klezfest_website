@@ -282,6 +282,10 @@ main {
   margin: 0;
 }
 
+.about p + p {
+  margin-top: 1rem;
+}
+
 .about p a {
   color: var(--maroon);
   font-weight: bold;
