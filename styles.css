@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url("fonts/cooper-hewitt/CooperHewitt-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url("fonts/cooper-hewitt/CooperHewitt-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url("fonts/cooper-hewitt/CooperHewitt-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url("fonts/cooper-hewitt/CooperHewitt-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url("fonts/cooper-hewitt/CooperHewitt-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --maroon: #5c2430;
   --gold: #c9a24b;
@@ -16,7 +56,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Cooper Hewitt', Georgia, 'Times New Roman', serif;
   background: var(--paper);
   color: var(--ink);
 }
