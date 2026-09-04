@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'Desert Folk';
+  src: url("fonts/desertfolk-font/dessertfolk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Cooper Hewitt';
   src: url("fonts/cooper-hewitt/CooperHewitt-Book.woff") format("woff");
   font-weight: normal;
@@ -63,7 +71,7 @@ body {
 
 .site-header {
   background: var(--maroon) url("images/klezfest-background.png") center / 500px auto repeat;
-  padding: 0.75rem 0;
+  padding: 0.6rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -94,7 +102,7 @@ body {
 .banner {
   display: block;
   width: 100%;
-  max-width: 260px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -131,6 +139,7 @@ main {
 }
 
 .hero h1 {
+  font-family: 'Desert Folk', 'Cooper Hewitt', Georgia, 'Times New Roman', serif;
   font-size: 2.75rem;
   margin: 0 0 0.5rem;
   color: var(--maroon);
@@ -169,6 +178,7 @@ main {
 }
 
 .featured-info h2 {
+  font-family: 'Desert Folk', 'Cooper Hewitt', Georgia, 'Times New Roman', serif;
   font-size: 1.9rem;
   margin: 0 0 0.5rem;
   color: var(--maroon);
@@ -495,6 +505,51 @@ main {
   height: auto;
   border-radius: 4px;
   display: block;
+}
+
+.director-photo {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+.artist-bio.director-bio {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.director-bio .director-photo {
+  flex: 1 1 220px;
+  max-width: 220px;
+  margin: 0;
+}
+
+.director-info {
+  flex: 2 1 320px;
+  min-width: 0;
+}
+
+.director-info h3 {
+  text-align: left;
+  margin: 0 0 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .artist-bio.director-bio {
+    flex-direction: column;
+  }
+
+  .director-bio .director-photo {
+    max-width: 100%;
+  }
+
+  .director-info h3 {
+    text-align: center;
+  }
 }
 
 .photo-wrap {
