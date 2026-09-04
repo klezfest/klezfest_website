@@ -20,7 +20,7 @@ Every page shares one header/nav and footer, and one stylesheet (`styles.css`).
 - `header-scroll.js` — hides the header on scroll-down and reveals it on scroll-up; loaded with `defer` on every page.
 - `images/` — photos, band/artist images, and site logos.
 - `fonts/cooper-hewitt/` — the Cooper Hewitt webfont files (`.woff`) used site-wide, referenced by `styles.css`.
-- `desertfolk-font` - the DesertFolk font used for the klezfest logo (useful to have)
+- `fonts/desertfolk-font` - the DesertFolk font used for the klezfest logo (useful to have)
 
 ## Editing
 
