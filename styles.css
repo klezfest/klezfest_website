@@ -111,6 +111,10 @@ body {
   gap: 0.75rem;
 }
 
+.nav-toggle {
+  display: none;
+}
+
 .nav-btn {
   display: inline-block;
   background: var(--gold);
@@ -649,6 +653,49 @@ main {
 
   .error-hero h1 {
     font-size: 4rem;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .nav-toggle-bar {
+    display: block;
+    width: 26px;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--paper);
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1rem 1.5rem 1.5rem;
+    background: var(--maroon);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .site-nav--open {
+    display: flex;
+  }
+
+  .site-nav .nav-btn {
+    text-align: center;
   }
 
   .lineup-row {
