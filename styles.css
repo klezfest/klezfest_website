@@ -139,7 +139,7 @@ main {
 
 .hero {
   text-align: center;
-  padding: 3rem 1rem 2rem;
+  padding: 1.25rem 1rem 2rem;
 }
 
 .hero h1 {
@@ -170,10 +170,14 @@ main {
   border-top: 1px solid #e4dccb;
 }
 
-.featured-photo {
+.featured-photo-wrap {
   flex: 1 1 320px;
   width: 100%;
   max-width: 420px;
+}
+
+.featured-photo {
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -186,6 +190,13 @@ main {
   font-size: 1.9rem;
   margin: 0 0 0.5rem;
   color: var(--maroon);
+}
+
+.featured-tagline {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--gold);
+  margin: 0 0 1rem;
 }
 
 .performance-time {
@@ -401,7 +412,8 @@ main {
   border-left: 4px solid var(--gold);
 }
 
-.about .pull-quote p {
+.about .pull-quote p,
+.featured-photo-wrap .pull-quote p {
   font-style: italic;
   font-size: 1.15rem;
   line-height: 1.6;
