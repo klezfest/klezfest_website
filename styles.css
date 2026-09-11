@@ -162,6 +162,8 @@ main {
 }
 
 #home-hero .dates {
+  font-size: 1.2rem;
+  font-weight: bold;
   color: var(--maroon);
 }
 
@@ -197,7 +199,7 @@ main {
 }
 
 .featured-tagline {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: var(--gold);
   margin: 0 0 1rem;
