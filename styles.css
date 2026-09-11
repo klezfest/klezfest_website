@@ -150,7 +150,8 @@ main {
 }
 
 .hero .location {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  font-weight: bold;
   margin: 0 0 0.5rem;
   color: var(--gold);
 }
