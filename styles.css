@@ -376,6 +376,68 @@ main {
   color: var(--ink);
 }
 
+.mailing-list-form {
+  margin-top: 1.5rem;
+}
+
+.indicates-required {
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+
+.asterisk {
+  color: var(--red);
+}
+
+.mc-field-group {
+  margin: 0 0 1rem;
+}
+
+.mc-field-group label {
+  display: block;
+  font-weight: bold;
+  color: var(--maroon);
+  margin-bottom: 0.3rem;
+}
+
+.mc-field-group input {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #d8cfc0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.mc-field-group input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(201, 162, 75, 0.3);
+}
+
+.response {
+  font-weight: bold;
+  margin: 0.75rem 0;
+}
+
+#mce-success-response {
+  color: var(--maroon);
+}
+
+#mce-error-response {
+  color: var(--red);
+}
+
+#mc-embedded-subscribe {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
 .error-hero h1 {
   font-size: 6rem;
 }
