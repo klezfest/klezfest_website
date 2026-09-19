@@ -438,6 +438,45 @@ main {
   font-size: 1rem;
 }
 
+.signup-page {
+  background: var(--maroon) url("images/klezfest-background.png") center / 500px auto repeat;
+  min-height: 100vh;
+}
+
+.signup-main {
+  max-width: 560px;
+  padding: 2.5rem 1.5rem 3rem;
+}
+
+.signup-logo {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin: 0 auto 2rem;
+}
+
+.signup-card {
+  margin-bottom: 1.5rem;
+}
+
+.signup-card h1 {
+  font-family: 'Desert Folk', 'Cooper Hewitt', Georgia, 'Times New Roman', serif;
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+  color: var(--maroon);
+}
+
+.signup-footer {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.signup-footer a {
+  color: var(--gold);
+}
+
 .error-hero h1 {
   font-size: 6rem;
 }
