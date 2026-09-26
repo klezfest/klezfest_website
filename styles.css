@@ -457,7 +457,7 @@ main {
 }
 
 .signup-card {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .signup-card h1 {
@@ -467,14 +467,20 @@ main {
   color: var(--maroon);
 }
 
-.signup-footer {
-  text-align: center;
-  margin: 0;
-  font-size: 0.9rem;
+.signup-back-row {
+  text-align: right;
+  margin-top: 1.5rem;
 }
 
-.signup-footer a {
-  color: var(--gold);
+.signup-back {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.signup-back:hover,
+.signup-back:focus-visible {
+  background: var(--maroon);
+  color: var(--paper);
 }
 
 .error-hero h1 {
